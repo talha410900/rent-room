@@ -257,7 +257,7 @@ class App extends Component {
         return (
             <div>
                 <Helmet>
-                    <title>{configuration.get("configData.site_name")}</title>
+                    <title>Community Red</title>
                     <link
                         rel="icon"
                         type="image/png"
