@@ -65,33 +65,29 @@ class HostFooter extends Component {
                                 <div className="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 p-0">
                                     <div>
                                         <h5 className="bold-cls m-0 captalize">
-                                            {configuration.get(
-                                                "configData.site_name"
-                                            )}
+                                            Community Red
                                         </h5>
                                         <ul className="footer-listings">
                                             {this.state.footer_first_section
                                                 .length > 0
                                                 ? this.state.footer_first_section.map(
-                                                      (
-                                                          first_static_page,
-                                                          index_first
-                                                      ) => (
-                                                          <li>
-                                                              <Link
-                                                                  to={`/page/${first_static_page.unique_id}`}
-                                                                  target="_blank"
-                                                                  key={
-                                                                      first_static_page.unique_id
-                                                                  }
-                                                              >
-                                                                  {
-                                                                      first_static_page.title
-                                                                  }
-                                                              </Link>
-                                                          </li>
-                                                      )
-                                                  )
+                                                    (
+                                                        first_static_page,
+                                                        index_first
+                                                    ) => (
+                                                        <li>
+                                                            <Link
+                                                                to={`/page/${first_static_page.unique_id}`}
+                                                                target="_blank"
+                                                                key={
+                                                                    first_static_page.unique_id
+                                                                }
+                                                            >
+                                                                Community Red
+                                                            </Link>
+                                                        </li>
+                                                    )
+                                                )
                                                 : ""}
                                         </ul>
                                     </div>
@@ -105,25 +101,25 @@ class HostFooter extends Component {
                                             {this.state.footer_second_section
                                                 .length > 0
                                                 ? this.state.footer_second_section.map(
-                                                      (
-                                                          static_page,
-                                                          index_second
-                                                      ) => (
-                                                          <li>
-                                                              <Link
-                                                                  to={`/page/${static_page.unique_id}`}
-                                                                  target="_blank"
-                                                                  key={
-                                                                      static_page.unique_id
-                                                                  }
-                                                              >
-                                                                  {
-                                                                      static_page.title
-                                                                  }
-                                                              </Link>
-                                                          </li>
-                                                      )
-                                                  )
+                                                    (
+                                                        static_page,
+                                                        index_second
+                                                    ) => (
+                                                        <li>
+                                                            <Link
+                                                                to={`/page/${static_page.unique_id}`}
+                                                                target="_blank"
+                                                                key={
+                                                                    static_page.unique_id
+                                                                }
+                                                            >
+                                                                {
+                                                                    static_page.title
+                                                                }
+                                                            </Link>
+                                                        </li>
+                                                    )
+                                                )
                                                 : ""}
                                         </ul>
                                     </div>
@@ -137,23 +133,23 @@ class HostFooter extends Component {
                                             {this.state.footer_third_section
                                                 .length > 0
                                                 ? this.state.footer_third_section.map(
-                                                      (
-                                                          static_page,
-                                                          index_third
-                                                      ) => (
-                                                          <li>
-                                                              <Link
-                                                                  to={`/page/${static_page.unique_id}`}
-                                                                  target="_blank"
-                                                                  key={`third-${index_third}`}
-                                                              >
-                                                                  {
-                                                                      static_page.title
-                                                                  }
-                                                              </Link>
-                                                          </li>
-                                                      )
-                                                  )
+                                                    (
+                                                        static_page,
+                                                        index_third
+                                                    ) => (
+                                                        <li>
+                                                            <Link
+                                                                to={`/page/${static_page.unique_id}`}
+                                                                target="_blank"
+                                                                key={`third-${index_third}`}
+                                                            >
+                                                                {
+                                                                    static_page.title
+                                                                }
+                                                            </Link>
+                                                        </li>
+                                                    )
+                                                )
                                                 : ""}
                                         </ul>
                                     </div>
@@ -232,22 +228,22 @@ class HostFooter extends Component {
                                             {this.state.footer_fourth_section
                                                 .length > 0
                                                 ? this.state.footer_fourth_section.map(
-                                                      (static_page, index) => (
-                                                          <li>
-                                                              <Link
-                                                                  key={
-                                                                      static_page.unique_id
-                                                                  }
-                                                                  to={`/page/${static_page.unique_id}`}
-                                                                  target="_blank"
-                                                              >
-                                                                  {
-                                                                      static_page.title
-                                                                  }
-                                                              </Link>
-                                                          </li>
-                                                      )
-                                                  )
+                                                    (static_page, index) => (
+                                                        <li>
+                                                            <Link
+                                                                key={
+                                                                    static_page.unique_id
+                                                                }
+                                                                to={`/page/${static_page.unique_id}`}
+                                                                target="_blank"
+                                                            >
+                                                                {
+                                                                    static_page.title
+                                                                }
+                                                            </Link>
+                                                        </li>
+                                                    )
+                                                )
                                                 : ""}
                                         </ul>
                                     </div>
@@ -256,7 +252,7 @@ class HostFooter extends Component {
                             <p className="overview-line" />
                             <h5 className="captalize m-0">
                                 <i className="far fa-copyright small1" />{" "}
-                                {configuration.get("configData.site_name")}
+                                Community Red
                             </h5>
                         </div>
                     </div>
