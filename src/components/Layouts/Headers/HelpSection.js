@@ -16,7 +16,7 @@ class HelpSection extends Component {
       <div className="help-section" id="help-sec">
         <div className="help-head">
           <h4>
-            RentRoom Help{" "}
+            Community Red Help{" "}
             <span id="help-close">
               <i className="material-icons">close</i>
             </span>

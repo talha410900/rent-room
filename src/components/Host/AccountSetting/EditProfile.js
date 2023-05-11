@@ -102,7 +102,7 @@ class HostEditProfile extends HostHelper {
                         value={loading ? "" : data.email}
                         onChange={this.handleChange}
                         description="We won’t share your private email address with other
-                        RentRoom users."
+                        Community Red users."
                       />
 
                       <ProfileInput
@@ -114,7 +114,7 @@ class HostEditProfile extends HostHelper {
                         value={loading ? "" : data.mobile}
                         onChange={this.handleChange}
                         description="This is only shared once you have a confirmed
-                        booking with another RentRoom user. This is how we can
+                        booking with another Community Red user. This is how we can
                         all get in touch."
                       />
 
@@ -132,7 +132,7 @@ class HostEditProfile extends HostHelper {
                             onChange={this.handleChange}
                           />
                           <h5 className="profile-note">
-                            RentRoom is built on relationships. Help other
+                            Community Red is built on relationships. Help other
                             people get to know you.
                           </h5>
 
@@ -145,7 +145,7 @@ class HostEditProfile extends HostHelper {
 
                           <h5 className="profile-note">
                             Tell them what it’s like to have you as a guest or
-                            host: What’s your style of traveling? Of RentRoom
+                            host: What’s your style of traveling? Of Community Red
                             hosting?
                           </h5>
 

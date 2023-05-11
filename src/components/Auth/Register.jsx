@@ -96,7 +96,7 @@ class Register extends Helper {
           this.setState({ loadingContent: null, buttonDisable: false });
         }
       })
-      .catch(function(error) {});
+      .catch(function (error) { });
   };
 
   render() {
@@ -118,7 +118,7 @@ class Register extends Helper {
               </div>
 
               <div className="modal-body" onSubmit={this.handleSubmit}>
-                <h1 className="section-head">welcome to RentRoom</h1>
+                <h1 className="section-head">welcome to Community Red</h1>
                 <form className="top1">
                   <InputField
                     type="text"
@@ -180,7 +180,7 @@ class Register extends Helper {
                 </div>
                 <p className="line" />
                 <h4 className="m-0 text-center captalize">
-                  Already have an RentRoom account?{" "}
+                  Already have an Community Red account?{" "}
                   <a
                     href="#"
                     className="bold-cls close-signup"

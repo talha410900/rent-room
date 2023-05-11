@@ -13,6 +13,7 @@ import Helper from "../../Helper/Helper";
 
 import SearchForm from "../../Helper/searchForm";
 import configuartion from "react-global-configuration";
+import logo from "../../../assets/logo.png"
 
 class FixedHeader extends Helper {
   // constructor(props) {
@@ -88,8 +89,8 @@ class FixedHeader extends Helper {
               className="nav-link dropdown-toggle"
               to={"/wishlist"}
               id="navbarwishdrop"
-              // onClick={this.handleSaveDropdown}
-              // data-toggle={loadingWishlist ? "" : "dropdown"}
+            // onClick={this.handleSaveDropdown}
+            // data-toggle={loadingWishlist ? "" : "dropdown"}
             >
               saved
             </Link>
@@ -127,7 +128,7 @@ class FixedHeader extends Helper {
             </Link>
             <div className="dropdown-menu become-host">
               <h5 className="captalize medium-cls">
-                Get $1,100 for every friend you invite to RentRoom.{" "}
+                Get $1,100 for every friend you invite to Community Red.{" "}
                 <Link to="#"> See terms.</Link>
               </h5>
               <Link to="#" className="green-btn-small top">
@@ -185,7 +186,7 @@ class FixedHeader extends Helper {
           <Link className="navbar-brand" to={"/"}>
             <img
               data-src={window.location.origin + "/assets/site/favicon.png"}
-              src={configuartion.get("configData.site_icon")}
+              src={logo}
               alt={configuartion.get("configData.site_name")}
             />
           </Link>

@@ -26,14 +26,14 @@ class RelativeHeader extends Helper {
       <div>
         <nav className="navbar navbar-expand-xl bg-light navbar-light white-header">
           <Link className="navbar-brand" to={"/"}>
-          <img
-                            data-src={
-                                window.location.origin +
-                                "/assets/site/favicon.png"
-                            }
-                            src={configuartion.get("configData.site_logo")}
-                            alt={configuartion.get("configData.site_name")}
-                        />
+            <img
+              data-src={
+                window.location.origin +
+                "/assets/site/favicon.png"
+              }
+              src={configuartion.get("configData.site_logo")}
+              alt={configuartion.get("configData.site_name")}
+            />
           </Link>
           <SearchForm props={this.props.props} />
           <button
@@ -100,7 +100,7 @@ class RelativeHeader extends Helper {
                 </Link>
                 <div className="dropdown-menu become-host">
                   <h5 className="captalize medium-cls">
-                    Get $1,100 for every friend you invite to RentRoom.{" "}
+                    Get $1,100 for every friend you invite to Community Red.{" "}
                     <Link to="#"> See terms.</Link>
                   </h5>
                   <Link to="#" className="green-btn-small top">

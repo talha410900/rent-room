@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import HostHelper from "../../Helper/hostHelper";
 
 import configuartion from "react-global-configuration";
-
+import logo from "../../../assets/logo.png"
 class HostAuthHeader extends HostHelper {
     constructor(props) {
         super(props);
@@ -49,7 +49,7 @@ class HostAuthHeader extends HostHelper {
                 >
                     <Link className="navbar-brand" to={"/"}>
                         <img
-                            src={configuartion.get("configData.site_icon")}
+                            src={logo}
                             alt={configuartion.get("configData.site_name")}
                         />
                     </Link>
@@ -68,7 +68,7 @@ class HostAuthHeader extends HostHelper {
               />
 
               <div className="dropdown-menu nav-dropdown-menu">
-                <h5 className="dropdown-title">explore RentRoom</h5>
+                <h5 className="dropdown-title">explore Community Red</h5>
                 <Link to="#" className="grey-outline-btn">
                   all
                 </Link>

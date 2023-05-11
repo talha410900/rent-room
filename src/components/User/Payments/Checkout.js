@@ -11,6 +11,7 @@ import Helper from "../../Helper/Helper";
 import configuartion from "react-global-configuration";
 import AddCardForm from "../AccountSettings/addCardForm";
 import { Elements, StripeProvider } from "react-stripe-elements";
+import logo from "../../../assets/logo.png"
 
 const $ = window.$;
 const onlyDay = {
@@ -202,7 +203,7 @@ class Checkout extends Helper {
               <Link className="navbar-brand" to={"/"}>
                 <img
                   data-src={window.location.origin + "/assets/site/favicon.png"}
-                  src={configuartion.get("configData.site_icon")}
+                  src={logo}
                   alt={configuartion.get("configData.site_name")}
                 />
               </Link>
@@ -394,7 +395,7 @@ class Checkout extends Helper {
                           {cardLoading
                             ? "Loading..."
                             : cardList.cards.length > 0
-                            ? cardList.cards.map(card => (
+                              ? cardList.cards.map(card => (
                                 <div
                                   className="form-check add-list-block"
                                   key={card.user_card_id}
@@ -421,7 +422,7 @@ class Checkout extends Helper {
                                   <div className="clear-both" />
                                 </div>
                               ))
-                            : ""}
+                              : ""}
                         </div>
 
                         <h4 className="checkout-text">

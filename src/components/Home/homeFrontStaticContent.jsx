@@ -8,7 +8,7 @@ class HomeFrontStaticContent extends Component {
         return (
             <div>
                 <div className="section-title">
-                    <h1 className="section-head">introducing RentRoom plus</h1>
+                    <h1 className="section-head">introducing Community Red plus</h1>
                 </div>
                 <div className="add-img-sec">
                     <img
@@ -26,7 +26,7 @@ class HomeFrontStaticContent extends Component {
                         </h3>
                         <div>
                             <Link to="#" className="white-btn banner-white-btn">
-                                explore RentRoom plus homes
+                                explore Community Red plus homes
                             </Link>
                         </div>
                     </div>

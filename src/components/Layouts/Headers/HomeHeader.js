@@ -8,6 +8,7 @@ import Register from "../../Auth/Register";
 import Helper from "../../Helper/Helper";
 
 import configuartion from "react-global-configuration";
+import logo from '../../../assets/logo.png'
 
 class HomeHeader extends Helper {
   // constructor(props) {
@@ -107,8 +108,8 @@ class HomeHeader extends Helper {
           <nav className="navbar navbar-expand-xl bg-light navbar-light white-header trans-head fixed-top">
             <Link className="navbar-brand" to={"/"}>
               <img
-                src={configuartion.get("configData.site_logo")}
-                alt={configuartion.get("configData.site_name")}
+                src={logo}
+              // alt={configuartion.get("configData.site_name")}
               />
             </Link>
             <button

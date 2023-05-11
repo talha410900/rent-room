@@ -85,13 +85,13 @@ class TripHostSection extends Helper {
                 <p className="overview-line" />
                 <h4 className="host-text">
                     <span className="medium-cls">
-                        Always communicate through RentRoom
+                        Always communicate through Community Red
                     </span>{" "}
                     <span className="dot">
                         <i className="fas fa-circle" />
                     </span>{" "}
                     To protect your payment, never transfer money or communicate
-                    outside of the RentRoom website or app.
+                    outside of the Community Red website or app.
                 </h4>
                 <p className="overview-line" />
             </div>

@@ -67,30 +67,30 @@ class LandingPage extends Helper {
               {loading
                 ? load.propertyLoader()
                 : mainData.map((eachData, index) => (
-                    <div key={index}>
-                      <HomeRoomContent
-                        contentDetails={eachData.data}
-                        title={eachData.title}
-                        history={this.props.history}
-                      />
-                      {eachData.data.length > 0 ? (
-                        <Link
-                          to={`/see_all/${eachData.title}/${eachData.api_page_type_id}/${eachData.api_page_type}`}
-                          className="show-all"
-                        >
-                          show all <i className="fas fa-chevron-right" />
-                        </Link>
-                      ) : (
-                        ""
-                      )}
-                      {index == 0 ? (
-                        <LocationPage locations={second_block} />
-                      ) : (
-                        ""
-                      )}
-                      {index == 1 ? <HomeExtraContent /> : ""}
-                    </div>
-                  ))}
+                  <div key={index}>
+                    <HomeRoomContent
+                      contentDetails={eachData.data}
+                      title={eachData.title}
+                      history={this.props.history}
+                    />
+                    {eachData.data.length > 0 ? (
+                      <Link
+                        to={`/see_all/${eachData.title}/${eachData.api_page_type_id}/${eachData.api_page_type}`}
+                        className="show-all"
+                      >
+                        show all <i className="fas fa-chevron-right" />
+                      </Link>
+                    ) : (
+                      ""
+                    )}
+                    {index == 0 ? (
+                      <LocationPage locations={second_block} />
+                    ) : (
+                      ""
+                    )}
+                    {index == 1 ? <HomeExtraContent /> : ""}
+                  </div>
+                ))}
 
               {/* <HomeOtherContent /> */}
               <HomeLastContent />

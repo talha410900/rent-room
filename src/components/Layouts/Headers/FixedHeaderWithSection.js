@@ -12,6 +12,7 @@ import { withToastManager } from "react-toast-notifications";
 import ToastDemo from "../../Helper/toaster";
 import SearchForm from "../../Helper/searchForm";
 import configuartion from "react-global-configuration";
+import logo from "../../../assets/logo.png"
 
 class FixedHeaderWithSection extends Helper {
   constructor(props) {
@@ -111,7 +112,7 @@ class FixedHeaderWithSection extends Helper {
             </Link>
             <div className="dropdown-menu become-host">
               <h5 className="captalize medium-cls">
-                Get $1,100 for every friend you invite to RentRoom.{" "}
+                Get $1,100 for every friend you invite to Community Red.{" "}
                 <Link to="#"> See terms.</Link>
               </h5>
               <Link to="#" className="green-btn-small top">
@@ -168,7 +169,7 @@ class FixedHeaderWithSection extends Helper {
             <Link className="navbar-brand" to="/">
               <img
                 data-src={window.location.origin + "/assets/site/favicon.png"}
-                src={configuartion.get("configData.site_icon")}
+                src={logo}
                 alt={configuartion.get("configData.site_name")}
               />
             </Link>

@@ -50,7 +50,7 @@ class HomeOtherContent extends Component {
                 <div className="homes-text-sec">
                   <p className="red-text txt-overflow">6+ concerts </p>
                   <h4 className="homes-title txt-overflow">
-                    Introducing RentRoom Concerts
+                    Introducing Community Red Concerts
                   </h4>
                   <h5 className="homes-price txt-overflow-2line">
                     Discover Link new way to experience live music, with
@@ -88,7 +88,7 @@ class HomeOtherContent extends Component {
         <div>
           <div className="section-title">
             <h1 className="section-head">
-              RentRoom Plus homes around the world
+              Community Red Plus homes around the world
             </h1>
             <h4 className="captalize section-subhead">
               Browse Link new selection of homes verified for quality & comfort

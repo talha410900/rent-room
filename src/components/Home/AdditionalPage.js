@@ -28,7 +28,7 @@ class AdditionalPage extends Component {
                     <h1>Make every work trip unforgettable</h1>
                     <h3>
                       Work trips don’t have to be boring — make them
-                      extraordinary with RentRoom.
+                      extraordinary with Community Red.
                     </h3>
                   </div>
                 </div>
@@ -155,7 +155,7 @@ class AdditionalPage extends Component {
             <div className="site-content">
               <h1 className="subpage-head">Discover homes around the world</h1>
               <h4 className="section-subhead bottom top lh-1-4">
-                Enter your email and find out why RentRoom is the best way to
+                Enter your email and find out why Community Red is the best way to
                 travel for work.
               </h4>
               <div className="subpage-signin-sec">

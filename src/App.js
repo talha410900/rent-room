@@ -102,6 +102,8 @@ import { Helmet } from "react-helmet";
 
 import { apiConstants } from "./components/Constant/constants";
 
+
+
 const history = createHistory();
 
 const $ = window.$;
@@ -224,7 +226,7 @@ class App extends Component {
         }, 3 * 1000);
     }
 
-    componentDidMount() {}
+    componentDidMount() { }
 
     componentWillMount() {
         document.title = configData.data.site_name;
@@ -259,7 +261,7 @@ class App extends Component {
                     <link
                         rel="icon"
                         type="image/png"
-                        href={configuration.get("configData.site_icon")}
+                        href="favicon.ico"
                         sizes="16x16"
                     />
                 </Helmet>

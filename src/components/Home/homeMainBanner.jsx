@@ -96,8 +96,8 @@ class HomeMainBanner extends Helper {
                     </div>
                     <div className="banner-overlay">
                         <div className="banner-text-space">
-                            <h1>Book unique homes and </h1>
-                            <h1>experiences all over the world</h1>
+                            <h1>Find Somewhere Forever  </h1>
+                            {/* <h1>experiences all over the world</h1> */}
 
                             <form className="banner-form-top">
                                 <div className="input-group dropdown banner-search">
@@ -120,7 +120,7 @@ class HomeMainBanner extends Helper {
 
                                     <div className="dropdown-menu banner-dropdown-menu">
                                         <h5 className="dropdown-title">
-                                            explore RentRoom
+                                            explore Community Red
                                         </h5>
                                         <Link
                                             to="category/index.html"
@@ -143,30 +143,30 @@ class HomeMainBanner extends Helper {
                                             {loadingSearch
                                                 ? "Loading..."
                                                 : searchResult.length > 0
-                                                ? searchResult.map(search => (
-                                                      <li
-                                                          key={
-                                                              search.service_location_id
-                                                          }
-                                                      >
-                                                          <Link
-                                                              to="#"
-                                                              className="map-search-list-link"
-                                                              onClick={event =>
-                                                                  this.searchOnClickResult(
-                                                                      event,
-                                                                      search
-                                                                  )
-                                                              }
-                                                          >
-                                                              <i className="fas fa-map-marker-alt" />{" "}
-                                                              {
-                                                                  search.service_location_name
-                                                              }
-                                                          </Link>
-                                                      </li>
-                                                  ))
-                                                : "No Data Found"}
+                                                    ? searchResult.map(search => (
+                                                        <li
+                                                            key={
+                                                                search.service_location_id
+                                                            }
+                                                        >
+                                                            <Link
+                                                                to="#"
+                                                                className="map-search-list-link"
+                                                                onClick={event =>
+                                                                    this.searchOnClickResult(
+                                                                        event,
+                                                                        search
+                                                                    )
+                                                                }
+                                                            >
+                                                                <i className="fas fa-map-marker-alt" />{" "}
+                                                                {
+                                                                    search.service_location_name
+                                                                }
+                                                            </Link>
+                                                        </li>
+                                                    ))
+                                                    : "No Data Found"}
                                         </ul>
                                     </div>
                                 </div>

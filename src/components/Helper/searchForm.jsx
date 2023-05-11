@@ -81,7 +81,7 @@ class SearchForm extends Helper {
           />
 
           <div className="dropdown-menu nav-dropdown-menu">
-            <h5 className="dropdown-title">explore RentRoom</h5>
+            <h5 className="dropdown-title">explore Community Red</h5>
             <Link to="/home" className="grey-outline-btn size1">
               all
             </Link>
@@ -101,7 +101,7 @@ class SearchForm extends Helper {
               {loadingSearch
                 ? "Loading..."
                 : searchResult.length > 0
-                ? searchResult.map(search => (
+                  ? searchResult.map(search => (
                     <li key={search.service_location_id}>
                       <Link
                         to="#"
@@ -115,7 +115,7 @@ class SearchForm extends Helper {
                       </Link>
                     </li>
                   ))
-                : "No Data Found"}
+                  : "No Data Found"}
             </ul>
           </div>
         </div>

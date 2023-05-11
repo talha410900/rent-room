@@ -5,7 +5,7 @@ const CategoryStatic2 = () => {
   return (
     <div>
       <div className="section-title">
-        <h1 className="section-head">Traveling on RentRoom</h1>
+        <h1 className="section-head">Traveling on Community Red</h1>
       </div>
       <div className="row">
         <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
@@ -69,7 +69,7 @@ const CategoryStatic2 = () => {
             <h5 className="">
               Guests review their hosts after each stay. All hosts must maintain
               Link minimum rating and our hospitality standards to be on
-              RentRoom.
+              Community Red.
             </h5>
           </div>
         </div>

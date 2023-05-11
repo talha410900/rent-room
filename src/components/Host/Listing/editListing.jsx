@@ -6,6 +6,7 @@ import ToastDemo from "../../Helper/toaster";
 import { Link } from "react-router-dom";
 import configuartion from "react-global-configuration";
 import { isArray } from "util";
+import logo from "../../../assets/logo.png"
 
 class EditListing extends Component {
   state = {
@@ -113,10 +114,10 @@ class EditListing extends Component {
       let full_address = "";
       place.address_components.map(
         address =>
-          (full_address =
-            full_address == ""
-              ? address.long_name
-              : full_address + "," + address.long_name)
+        (full_address =
+          full_address == ""
+            ? address.long_name
+            : full_address + "," + address.long_name)
       );
       formData["full_address"] = full_address;
 
@@ -444,7 +445,7 @@ class EditListing extends Component {
           <Link className="navbar-brand" to={"/host/dashboard"}>
             <img
               data-src={window.location.origin + "/assets/site/favicon.png"}
-              src={configuartion.get("configData.site_icon")}
+              src={logo}
               alt={configuartion.get("configData.site_name")}
             />
             <span style={{ marginLeft: "20px" }}>
@@ -507,15 +508,15 @@ class EditListing extends Component {
                                     {subcategoryLoading
                                       ? ""
                                       : subCategoryData.map(subcategory => (
-                                          <option
-                                            key={subcategory.sub_category_id}
-                                            value={subcategory.sub_category_id}
-                                          >
-                                            {
-                                              subcategory.sub_category_user_display_name
-                                            }
-                                          </option>
-                                        ))}
+                                        <option
+                                          key={subcategory.sub_category_id}
+                                          value={subcategory.sub_category_id}
+                                        >
+                                          {
+                                            subcategory.sub_category_user_display_name
+                                          }
+                                        </option>
+                                      ))}
                                   </select>
                                   <p className="form-note">
                                     Apartments are typically located in
@@ -542,7 +543,7 @@ class EditListing extends Component {
                                       onChange={this.handleChange}
                                       checked={
                                         formData[
-                                          stepData[0].data[1].server_key
+                                        stepData[0].data[1].server_key
                                         ] == ans.key
                                       }
                                     />
@@ -661,7 +662,7 @@ class EditListing extends Component {
                                       onChange={this.handleChange}
                                       checked={
                                         formData[
-                                          stepData[2].data[1].server_key
+                                        stepData[2].data[1].server_key
                                         ] == ans.key
                                       }
                                     />
@@ -757,7 +758,7 @@ class EditListing extends Component {
                                   name={secondApiResponse[0].data[1].server_key}
                                   value={
                                     formData[
-                                      secondApiResponse[0].data[1].server_key
+                                    secondApiResponse[0].data[1].server_key
                                     ]
                                   }
                                   onChange={this.handleAmentiesChange}
@@ -803,7 +804,7 @@ class EditListing extends Component {
                                     {details.question}
                                   </h5>
                                   {details.answer.length > 0 &&
-                                  isArray(details.answer) ? (
+                                    isArray(details.answer) ? (
                                     details.answer.map(ans => (
                                       <div
                                         className="form-group form-check tick-check"

@@ -5,10 +5,10 @@ const CategoryStatic1 = () => {
     return (
         <div>
             <div className="section-title">
-                <h1 className="section-head">Homes for your kind of trip</h1>
-                <h4 className="captalize section-subhead">
+                <h1 className="section-head">Housing for everyone, Nationwide</h1>
+                {/* <h4 className="captalize section-subhead">
                     find a top-rated home with amenities you need
-                </h4>
+                </h4> */}
             </div>
             <div className="row">
                 <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6">

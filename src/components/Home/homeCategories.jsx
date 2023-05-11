@@ -22,16 +22,15 @@ class Categories extends Component {
 
     return (
       <div>
-        <h1 className="section-head">{this.props.categoryDetails.title}</h1>
+        <h1 className="section-head">Social Housing for Everyone</h1>
         <section>
           <Slider className="category" {...settings}>
             {this.props.categoryDetails.data.map(category => (
               <div key={category.category_id}>
                 {this.props.categoryDetails.is_see_all == 1 ? (
                   <Link
-                    to={`/see_all/${category.name}/${
-                      category.api_page_type_id
-                    }/${this.props.categoryDetails.api_page_type}`}
+                    to={`/see_all/${category.name}/${category.api_page_type_id
+                      }/${this.props.categoryDetails.api_page_type}`}
                   >
                     <div className="display-inline home-explore-card">
                       <div className="home-explore-left">
@@ -50,9 +49,8 @@ class Categories extends Component {
                   </Link>
                 ) : (
                   <Link
-                    to={`/category/${category.name}/${
-                      category.api_page_type_id
-                    }/${this.props.categoryDetails.api_page_type}`}
+                    to={`/category/${category.name}/${category.api_page_type_id
+                      }/${this.props.categoryDetails.api_page_type}`}
                   >
                     <div className="display-inline home-explore-card">
                       <div className="home-explore-left">

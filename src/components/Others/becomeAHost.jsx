@@ -29,9 +29,9 @@ class BecomeAHost extends Component {
               <div className="row">
                 <div className="col-md-6 col-lg-6 col-xl-5 host-banner-aligncenter">
                   <div className="">
-                    <h2 className="host-banner-subhead">host on RentRoom</h2>
+                    {/* <h2 className="host-banner-subhead">host on Community Red</h2> */}
                     <h1 className="host-banner-head">
-                      Earn money as an RentRoom host
+                      Become a Host with Community Red
                     </h1>
                   </div>
                 </div>
@@ -84,18 +84,15 @@ class BecomeAHost extends Component {
             <div className="site-content">
               <div className="row">
                 <div className="col-sm-12 col-md-4 col-lg-4 co-xl-4">
-                  <h2 className="features-head">Why host on RentRoom?</h2>
+                  <h2 className="features-head">Why host on Community Red?</h2>
                   <h4 className="features-para">
-                    No matter what kind of home or room you have to share,
-                    RentRoom makes it simple and secure to earn money and reach
-                    millions of travelers looking for unique places to stay,
-                    just like yours.
+                    Offer your listings in one place and find tenants in need of properties in real-time, helping end the cycle of homelessness in your community.
                   </h4>
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-4 co-xl-4">
                   <h2 className="features-head">You’re in control</h2>
                   <h4 className="features-para">
-                    With RentRoom, you’re in full control of your availability,
+                    With Community Red, you’re in full control of your availability,
                     prices, house rules, and how you interact with guests. You
                     can set check-in times and handle the process however you
                     like.
@@ -104,7 +101,7 @@ class BecomeAHost extends Component {
                 <div className="col-sm-12 col-md-4 col-lg-4 co-xl-4">
                   <h2 className="features-head">We’re there at every step</h2>
                   <h4 className="features-para">
-                    RentRoom offers tools, hospitality tips, 24/7 support, and
+                    Community Red offers tools, hospitality tips, 24/7 support, and
                     an online community of experienced hosts for questions and
                     sharing ideas for success.
                   </h4>
@@ -116,7 +113,7 @@ class BecomeAHost extends Component {
         <div className="site-content">
           <div className="host-top-bottom-spacing">
             <div className="host-section-head">
-              <h1>How to be an RentRoom host</h1>
+              <h1>How to be an Community Red host</h1>
             </div>
             <div className="row listings">
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 mob-listing-view">
@@ -131,17 +128,15 @@ class BecomeAHost extends Component {
                     </div>
                     <div className="listings-para">
                       <p>
-                        It’s free and easy to create a listing on RentRoom.
-                        Describe your space, how many guests you can
-                        accommodate, and add photos and details.
+                        It’s free and easy to create a listing on Community Red. Describe your space, how many guests you can accommodate, and add photos and details. Including any service charges.
                       </p>
                     </div>
-                    <div className="listings-para">
+                    {/* <div className="listings-para">
                       <p>
                         Our pricing tool can recommend competitive rates, but
                         what you charge is always up to you.
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -151,28 +146,26 @@ class BecomeAHost extends Component {
             </div>
             <div className="row listings">
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <img src="../assets/img/listing2.jpg" className="listing-img" alt="Listing 2"/>
+                <img src="../assets/img/listing2.jpg" className="listing-img" alt="Listing 2" />
               </div>
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <div className="media">
                   <h1 className="count">2</h1>
                   <div className="media-body">
                     <div className="listings-head">
-                      <h3>Create your listing</h3>
+                      <h3>Await your listing to be approved</h3>
                     </div>
                     <div className="listings-para">
                       <p>
-                        It’s free and easy to create a listing on RentRoom.
-                        Describe your space, how many guests you can
-                        accommodate, and add photos and details.
+                        All listings are approved and verified before going live.
                       </p>
                     </div>
-                    <div className="listings-para">
+                    {/* <div className="listings-para">
                       <p>
                         Our pricing tool can recommend competitive rates, but
                         what you charge is always up to you.
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -186,21 +179,19 @@ class BecomeAHost extends Component {
                   <h1 className="count">1</h1>
                   <div className="media-body">
                     <div className="listings-head">
-                      <h3>Create your listing</h3>
+                      <h3>            Interact with guests via your dashboard to arrange a viewing. </h3>
                     </div>
                     <div className="listings-para">
                       <p>
-                        It’s free and easy to create a listing on RentRoom.
-                        Describe your space, how many guests you can
-                        accommodate, and add photos and details.
+
                       </p>
                     </div>
-                    <div className="listings-para">
+                    {/* <div className="listings-para">
                       <p>
                         Our pricing tool can recommend competitive rates, but
                         what you charge is always up to you.
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -213,7 +204,7 @@ class BecomeAHost extends Component {
         <div className="site-content">
           <div className="host-top-bottom-spacing">
             <div className="host-section-head">
-              <h1>safety on RentRoom</h1>
+              <h1>safety on Community Red</h1>
             </div>
 
             <div className="row">
@@ -225,11 +216,9 @@ class BecomeAHost extends Component {
                     className="mr-3 rounded-circle review-img"
                   />
                   <div className="media-body">
-                    <h2>₹6,00,00,000 Host Guarantee</h2>
+                    <h2> Host Guarantee</h2>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      All Tenants are verified before communicating on Community Red
                     </p>
                   </div>
                 </div>
@@ -242,12 +231,9 @@ class BecomeAHost extends Component {
                     className="mr-3 rounded-circle review-img"
                   />
                   <div className="media-body">
-                    <h2>Host Protection Insurance</h2>
+                    <h2>Approved Landlords </h2>
                     <p>
-                      If your guests get hurt or cause property damage, our Host
-                      Protection Insurance protects you from liability claims up
-                      to a million dollars, included free for every RentRoom
-                      host.
+                      All landlords are verified and approved before listing
                     </p>
                   </div>
                 </div>
@@ -260,12 +246,9 @@ class BecomeAHost extends Component {
                     className="mr-3 rounded-circle review-img"
                   />
                   <div className="media-body">
-                    <h2>RentRoom is built on trust</h2>
+                    <h2>Community Red is built on trust</h2>
                     <p>
-                      All RentRoom travelers must submit a profile photo and
-                      verify their phone & email. Hosts can also require a
-                      government ID. Guests and hosts each publish reviews after
-                      check out keeping everyone accountable and respectful.
+                      Everyone is verified for safety
                     </p>
                   </div>
                 </div>

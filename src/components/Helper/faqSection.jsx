@@ -23,13 +23,13 @@ class FaqSection extends Component {
                       <span>
                         <i className="fas fa-chevron-down" />
                       </span>
-                      Can I share my home on RentRoom?
+                      Can I share my home on Community Red?
                     </a>
                   </div>
                   <div id="collapse1" className="collapse">
                     <div className="card-body">
                       you can learn about local laws and rules and get advice on
-                      hosting responsibly in RentRoom’s online Help Center.
+                      hosting responsibly in Community Red’s online Help Center.
                     </div>
                   </div>
                 </div>
@@ -43,17 +43,17 @@ class FaqSection extends Component {
                       <span>
                         <i className="fas fa-chevron-down" />
                       </span>
-                      Who can be an RentRoom host?
+                      Who can be an Community Red host?
                     </a>
                   </div>
                   <div id="collapse2" className="collapse">
                     <div className="card-body">
-                      It’s easy to become an RentRoom host in most areas, and
+                      It’s easy to become an Community Red host in most areas, and
                       it’s always free to create a listing. Entire apartments
                       and homes, private rooms, treehouses, and castles are just
-                      a few of the properties hosts have shared on RentRoom. For
+                      a few of the properties hosts have shared on Community Red. For
                       more details on what’s expected of hosts, check out
-                      RentRoom’s community standards, which revolve around
+                      Community Red’s community standards, which revolve around
                       safety, security, and reliability, and hospitality
                       standards, which help hosts earn great guest reviews.
                     </div>
@@ -69,17 +69,17 @@ class FaqSection extends Component {
                       <span>
                         <i className="fas fa-chevron-down" />
                       </span>
-                      Does RentRoom screen guests?
+                      Does Community Red screen guests?
                     </a>
                   </div>
                   <div id="collapse3" className="collapse">
                     <div className="card-body">
-                      RentRoom verifies some information about guests and hosts
+                      Community Red verifies some information about guests and hosts
                       to help make our community a safer place for everyone.
                       That includes requiring a profile photo, confirmed phone
                       number, and confirmed email address. As a host, for added
                       security, you can also ask potential guests to provide an
-                      official ID and complete RentRoom’s Verified ID process.
+                      official ID and complete Community Red’s Verified ID process.
                     </div>
                   </div>
                 </div>
@@ -98,17 +98,17 @@ class FaqSection extends Component {
                       <span>
                         <i className="fas fa-chevron-down" />
                       </span>
-                      How should I price my listing on RentRoom?
+                      How should I price my listing on Community Red?
                     </a>
                   </div>
                   <div id="collapse4" className="collapse">
                     <div className="card-body">
                       What you charge is always up to you, but we do provide
                       tips to help make your space more competitive. When you
-                      create a listing on RentRoom, we suggest a price for your
+                      create a listing on Community Red, we suggest a price for your
                       property based on your location and other factors. You can
                       set nightly, weekly, and/or monthly rates. Our Smart
-                      Pricing tool can help you get the most from your RentRoom.
+                      Pricing tool can help you get the most from your Community Red.
                     </div>
                   </div>
                 </div>
@@ -122,12 +122,12 @@ class FaqSection extends Component {
                       <span>
                         <i className="fas fa-chevron-down" />
                       </span>
-                      How do RentRoom payments work?
+                      How do Community Red payments work?
                     </a>
                   </div>
                   <div id="collapse5" className="collapse">
                     <div className="card-body">
-                      All payments are processed securely through RentRoom’s
+                      All payments are processed securely through Community Red’s
                       online payment system. Guests are charged when a
                       reservation is made, and hosts are paid 24 hours after
                       check-in. How you’re paid is up to you: You can set up
@@ -145,12 +145,12 @@ class FaqSection extends Component {
                       <span>
                         <i className="fas fa-chevron-down" />
                       </span>
-                      Does RentRoom provide any insurance for hosts?
+                      Does Community Red provide any insurance for hosts?
                     </a>
                   </div>
                   <div id="collapse6" className="collapse">
                     <div className="card-body">
-                      Accidents are rare on RentRoom, but just in case, we’ve
+                      Accidents are rare on Community Red, but just in case, we’ve
                       got your back. Our Host Guarantee provides up to
                       ₹6,00,00,000 of coverage in case property damage occurs,
                       and our Host Protection Insurance provides liability

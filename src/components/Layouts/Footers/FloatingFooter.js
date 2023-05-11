@@ -88,11 +88,7 @@ class FloatingFooter extends Component {
                                                         24/7 customer support
                                                     </li>
                                                     <li className="grey-clr">
-                                                        if you need help while
-                                                        travelling or hosting,
-                                                        contact us at our toll
-                                                        free number: 000 800
-                                                        4405 103
+                                                        Email us at <a href='mailto:management@communityred.co.uk'>management@communityred.co.uk</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -109,13 +105,12 @@ class FloatingFooter extends Component {
                                             <div className="footer-rightside">
                                                 <ul className="footer-content-list">
                                                     <li className="bold-cls mbs-5">
-                                                        $6,00,00,000 host
-                                                        gurantee
+                                                        Registered and Verified Landlords
                                                     </li>
                                                     <li className="grey-clr">
-                                                        hosts are protected
+                                                        {/* hosts are protected
                                                         against property damages
-                                                        up to $6,00,00,000.{" "}
+                                                        up to $6,00,00,000.{" "} */}
                                                         <Link
                                                             to="#"
                                                             className="captalize"
@@ -191,25 +186,25 @@ class FloatingFooter extends Component {
                                                 {this.state.footer_first_section
                                                     .length > 0
                                                     ? this.state.footer_first_section.map(
-                                                          (
-                                                              first_static_page,
-                                                              index_first
-                                                          ) => (
-                                                              <li>
-                                                                  <Link
-                                                                      to={`/page/${first_static_page.unique_id}`}
-                                                                      target="_blank"
-                                                                      key={
-                                                                          first_static_page.unique_id
-                                                                      }
-                                                                  >
-                                                                      {
-                                                                          first_static_page.title
-                                                                      }
-                                                                  </Link>
-                                                              </li>
-                                                          )
-                                                      )
+                                                        (
+                                                            first_static_page,
+                                                            index_first
+                                                        ) => (
+                                                            <li>
+                                                                <Link
+                                                                    to={`/page/${first_static_page.unique_id}`}
+                                                                    target="_blank"
+                                                                    key={
+                                                                        first_static_page.unique_id
+                                                                    }
+                                                                >
+                                                                    {
+                                                                        first_static_page.title
+                                                                    }
+                                                                </Link>
+                                                            </li>
+                                                        )
+                                                    )
                                                     : ""}
                                             </ul>
                                         </div>
@@ -224,25 +219,25 @@ class FloatingFooter extends Component {
                                                     .footer_second_section
                                                     .length > 0
                                                     ? this.state.footer_second_section.map(
-                                                          (
-                                                              static_page,
-                                                              index_second
-                                                          ) => (
-                                                              <li>
-                                                                  <Link
-                                                                      to={`/page/${static_page.unique_id}`}
-                                                                      target="_blank"
-                                                                      key={
-                                                                          static_page.unique_id
-                                                                      }
-                                                                  >
-                                                                      {
-                                                                          static_page.title
-                                                                      }
-                                                                  </Link>
-                                                              </li>
-                                                          )
-                                                      )
+                                                        (
+                                                            static_page,
+                                                            index_second
+                                                        ) => (
+                                                            <li>
+                                                                <Link
+                                                                    to={`/page/${static_page.unique_id}`}
+                                                                    target="_blank"
+                                                                    key={
+                                                                        static_page.unique_id
+                                                                    }
+                                                                >
+                                                                    {
+                                                                        static_page.title
+                                                                    }
+                                                                </Link>
+                                                            </li>
+                                                        )
+                                                    )
                                                     : ""}
                                             </ul>
                                         </div>
@@ -256,23 +251,23 @@ class FloatingFooter extends Component {
                                                 {this.state.footer_third_section
                                                     .length > 0
                                                     ? this.state.footer_third_section.map(
-                                                          (
-                                                              static_page,
-                                                              index_third
-                                                          ) => (
-                                                              <li>
-                                                                  <Link
-                                                                      to={`/page/${static_page.unique_id}`}
-                                                                      target="_blank"
-                                                                      key={`third-${index_third}`}
-                                                                  >
-                                                                      {
-                                                                          static_page.title
-                                                                      }
-                                                                  </Link>
-                                                              </li>
-                                                          )
-                                                      )
+                                                        (
+                                                            static_page,
+                                                            index_third
+                                                        ) => (
+                                                            <li>
+                                                                <Link
+                                                                    to={`/page/${static_page.unique_id}`}
+                                                                    target="_blank"
+                                                                    key={`third-${index_third}`}
+                                                                >
+                                                                    {
+                                                                        static_page.title
+                                                                    }
+                                                                </Link>
+                                                            </li>
+                                                        )
+                                                    )
                                                     : ""}
                                             </ul>
                                         </div>
@@ -352,23 +347,23 @@ class FloatingFooter extends Component {
                                                     .footer_fourth_section
                                                     .length > 0
                                                     ? this.state.footer_fourth_section.map(
-                                                          (
-                                                              static_page,
-                                                              index_fourth
-                                                          ) => (
-                                                              <li>
-                                                                  <Link
-                                                                      to={`/page/${static_page.unique_id}`}
-                                                                      target="_blank"
-                                                                      key={`fourth-${index_fourth}`}
-                                                                  >
-                                                                      {
-                                                                          static_page.title
-                                                                      }
-                                                                  </Link>
-                                                              </li>
-                                                          )
-                                                      )
+                                                        (
+                                                            static_page,
+                                                            index_fourth
+                                                        ) => (
+                                                            <li>
+                                                                <Link
+                                                                    to={`/page/${static_page.unique_id}`}
+                                                                    target="_blank"
+                                                                    key={`fourth-${index_fourth}`}
+                                                                >
+                                                                    {
+                                                                        static_page.title
+                                                                    }
+                                                                </Link>
+                                                            </li>
+                                                        )
+                                                    )
                                                     : ""}
                                             </ul>
                                         </div>

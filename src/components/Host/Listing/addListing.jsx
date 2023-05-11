@@ -5,6 +5,7 @@ import { withToastManager } from "react-toast-notifications";
 import ToastDemo from "../../Helper/toaster";
 import { Link } from "react-router-dom";
 import configuartion from "react-global-configuration";
+import logo from "../../../assets/logo.png"
 
 class AddListing extends Component {
   state = {
@@ -101,10 +102,10 @@ class AddListing extends Component {
       let full_address = "";
       place.address_components.map(
         (address) =>
-          (full_address =
-            full_address == ""
-              ? address.long_name
-              : full_address + "," + address.long_name)
+        (full_address =
+          full_address == ""
+            ? address.long_name
+            : full_address + "," + address.long_name)
       );
       formData["full_address"] = full_address;
 
@@ -345,7 +346,7 @@ class AddListing extends Component {
           <Link className="navbar-brand" to={"/host/dashboard"}>
             <img
               data-src={window.location.origin + "/assets/site/favicon.png"}
-              src={configuartion.get("configData.site_icon")}
+              src={logo}
               alt={configuartion.get("configData.site_name")}
             />
             <span style={{ marginLeft: "20px" }}>
@@ -407,15 +408,15 @@ class AddListing extends Component {
                                     {subcategoryLoading
                                       ? ""
                                       : subCategoryData.map((subcategory) => (
-                                          <option
-                                            key={subcategory.sub_category_id}
-                                            value={subcategory.sub_category_id}
-                                          >
-                                            {
-                                              subcategory.sub_category_user_display_name
-                                            }
-                                          </option>
-                                        ))}
+                                        <option
+                                          key={subcategory.sub_category_id}
+                                          value={subcategory.sub_category_id}
+                                        >
+                                          {
+                                            subcategory.sub_category_user_display_name
+                                          }
+                                        </option>
+                                      ))}
                                   </select>
                                   <p className="form-note">
                                     Apartments are typically located in
@@ -441,7 +442,7 @@ class AddListing extends Component {
                                       value={ans.key}
                                       checked={
                                         ans.key ==
-                                        formData[stepData[0].data[1].server_key]
+                                          formData[stepData[0].data[1].server_key]
                                           ? true
                                           : false
                                       }
@@ -555,7 +556,7 @@ class AddListing extends Component {
                                       value={ans.key}
                                       checked={
                                         ans.key ==
-                                        formData[stepData[2].data[1].server_key]
+                                          formData[stepData[2].data[1].server_key]
                                           ? true
                                           : false
                                       }
@@ -687,13 +688,13 @@ class AddListing extends Component {
                                           id={ans.value}
                                           defaultChecked={
                                             formData[details.server_key] ==
-                                            undefined
+                                              undefined
                                               ? false
                                               : formData[
-                                                  details.server_key
-                                                ].indexOf(ans.key) !== -1
-                                              ? true
-                                              : false
+                                                details.server_key
+                                              ].indexOf(ans.key) !== -1
+                                                ? true
+                                                : false
                                           }
                                         />
                                         {console.log(
@@ -702,10 +703,10 @@ class AddListing extends Component {
                                             undefined
                                             ? "falsesdfasdfsdf"
                                             : formData[
-                                                details.server_key
-                                              ].indexOf(ans.key) == ans.key
-                                            ? true
-                                            : formData[
+                                              details.server_key
+                                            ].indexOf(ans.key) == ans.key
+                                              ? true
+                                              : formData[
                                                 details.server_key
                                               ].indexOf(ans.key)
                                         )}

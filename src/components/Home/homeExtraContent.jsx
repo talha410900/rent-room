@@ -8,11 +8,11 @@ class HomeExtraContent extends Component {
             <div>
                 <div className="section-title">
                     <h1 className="section-head">
-                        Homes for your kind of trip
+                        Housing for everyone, Nationwide
                     </h1>
-                    <h4 className="captalize section-subhead">
+                    {/* <h4 className="captalize section-subhead">
                         find Link top-rated home with amenities you need
-                    </h4>
+                    </h4> */}
                 </div>
 
                 <div className="row">

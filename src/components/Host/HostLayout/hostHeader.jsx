@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import HostHelper from "../../Helper/hostHelper";
 
 import configuartion from "react-global-configuration";
+import logo from "../../../assets/logo.png"
 
 class HostHeader extends HostHelper {
     // constructor(props) {
@@ -89,7 +90,7 @@ class HostHeader extends HostHelper {
                         <div className="dropdown-menu become-host">
                             <h5 className="captalize medium-cls">
                                 Get $1,100 for every friend you invite to
-                                RentRoom. <Link to="#"> See terms.</Link>
+                                Community Red. <Link to="#"> See terms.</Link>
                             </h5>
                             <Link to="#" className="green-btn-small top">
                                 invite friend
@@ -107,7 +108,7 @@ class HostHeader extends HostHelper {
                             <img
                                 src={
                                     localStorage.getItem("host_picture") ===
-                                    null
+                                        null
                                         ? "../assets/img/user-pic.png"
                                         : localStorage.getItem("host_picture")
                                 }
@@ -154,7 +155,7 @@ class HostHeader extends HostHelper {
                                 window.location.origin +
                                 "/assets/site/favicon.png"
                             }
-                            src={configuartion.get("configData.site_icon")}
+                            src={logo}
                             alt={configuartion.get("configData.site_name")}
                         />
                     </Link>
@@ -173,7 +174,7 @@ class HostHeader extends HostHelper {
               />
 
               <div className="dropdown-menu nav-dropdown-menu">
-                <h5 className="dropdown-title">explore RentRoom</h5>
+                <h5 className="dropdown-title">explore Community Red</h5>
                 <Link to="#" className="grey-outline-btn">
                   all
                 </Link>

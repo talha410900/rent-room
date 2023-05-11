@@ -22,13 +22,12 @@ class HomeLastContent extends Component {
                         </div>
                         <div className="col-sm-7 col-md-7 col-lg-8 col-xl-8 find-text-sec">
                             <div className="">
-                                <h1 className="find-head captalize">
-                                    find out how much you could earn hosting
-                                    your place
+                                <h1 className="find-head captalize mb-4">
+                                    Become a Host with Community Red
                                 </h1>
-                                <h4 className="captalize find-subhead">
+                                {/* <h4 className="captalize find-subhead">
                                     turn your extra space into extra income.
-                                </h4>
+                                </h4> */}
                                 <Link to="#" className="green-btn btn-small">
                                     find out more
                                 </Link>
